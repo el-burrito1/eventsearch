@@ -1,0 +1,15 @@
+div(class='row')
+    div(class='col-md-6 center-col')
+        h1(class='pageTitle') Event Finder
+        div(class='text-center')
+            form()
+                input(id='urlInput' ng-model='url' class='inputForm' placeholder='event url...')
+                input(type='submit' ng-click='test()')
+            div(class='load' ng-hide='!load')
+                h3 Searching for Similar Events
+                h5 This may take up to a few minutes...
+                i(class="fa fa-circle-o-notch fa-spin")
+        div
+            ul(class='list')
+                li(ng-repeat='urls in response')
+                    a(class='results' ng-href='{{urls}}' target='_blank'){{urls}} 

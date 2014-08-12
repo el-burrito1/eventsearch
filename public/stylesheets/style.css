@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center-col{
+	float: none;
+	margin: 0 auto;
+}
+
+.pageTitle{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.list{
+	padding-top: 15px;
+}
+
+.results{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.results :hover{
+	cursor: pointer;
+}
+
+.inputForm{
+	width: 50%;
+	margin-right: 10px;
+}
+
+.load{
+	padding-top: 40px;
+}
